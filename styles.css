@@ -1,0 +1,82 @@
+.topbar_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.topbar_component1 {
+  background-color: #005cff;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
+  height: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.DESCONTO10 {
+  background-color: #6220c1;
+  border-radius: 4px;
+}
+
+.DESCONTO102 {
+  font-weight: 400;
+}
+
+.topbar_component2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 1rem;
+}
+
+.input_topbar {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(221, 221, 221, 1);
+  width: 35rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.input_topbar::placeholder {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 0.75rem;
+}
+
+.topbar_component3 ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+  margin-top: 1.5rem;
+}
+
+.icons ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.topbar_component3 strong {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.topbar_component3 li {
+  font-size: 14px;
+}
+
+.imagem_component {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  background: #e7e7ea;
+}
